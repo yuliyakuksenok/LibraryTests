@@ -4,7 +4,7 @@ using TechTalk.SpecFlow;
 namespace Library.Specs.StepDefinitions
 {
     [Binding]
-    public class ShelfSteps
+    public class ListOfShelfSteps
     {
         [When(@"I send request for getting list of shelves to ""(.*)""")]
         public void WhenISendRequestForGettingListOfShelvesTo(string p0)
