@@ -1,6 +1,6 @@
-﻿Feature: Getting web API
+Feature: Getting web API
 
-Scenario: Sending request for getting API
+Scenario: Sending request for getting API v.1
 	Given I have an API web page
 	When I send request to get API web 'https://boyns97jh5.execute-api.eu-west-1.amazonaws.com/Prod/swagger/v1/swagger.json'
 	Then the result should have status code '200'
