@@ -5,11 +5,11 @@ using Library.Specs.Drivers;
 namespace Library.Specs.StepDefinitions
 {
     [Binding]
-    public class GettingWebAPISteps
+    public class GettingAPISteps
     {
         private readonly WebDriver _webDriver;
 
-        public GettingWebAPISteps(WebDriver webDriver)
+        public GettingAPISteps(WebDriver webDriver)
         {
             _webDriver = webDriver;
         }
